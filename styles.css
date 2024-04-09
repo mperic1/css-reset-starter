@@ -37,6 +37,10 @@ header, footer{
     text-align: center;
     background-color: var(--mint);
 }
+/*Heading Styles*/
+h1, h2, h3{
+    font-weight: bold;
+}
 
 /* Navigation Styles */
 nav{
@@ -50,6 +54,7 @@ nav ul{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0;
+    margin: 1em 0;
 }
 
 nav a{
@@ -77,6 +82,18 @@ h2, h3{
     text-align: center;
 }
 
+/* H2 Styles*/
+h2{
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+/* H3 Styles*/
+h3{
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
 /* Paragraph Styles */
 p{
     max-width: 65ch;
@@ -86,6 +103,13 @@ p{
 /* Link Styles */
 a{
     color: var(--red);
+}
+
+/* H1 Styles*/
+h1{
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
 /* Link Hover Styles */
@@ -132,6 +156,7 @@ input:focus, input:focus-visible, textarea:focus, textarea:focus-visible{
 /* input styles */
 input{
     height: 2rem;
+    padding: 1px 2px;
 }
 
 /* Fieldset Styles */
@@ -140,7 +165,13 @@ fieldset{
     grid-template-columns: 0.25fr 6fr 0.25fr 6fr;
     gap: 1rem;
     margin: 1rem 0;
-    border-color: var(--red);
+    padding: 0.35em 0.75em 0.625em 0.75em;
+    border: 2px groove var(--red);
+}
+
+/*Legend Styles*/
+legend{
+    padding: 0 2px;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
@@ -210,6 +241,11 @@ textarea{
 #my-submit:hover{
     background-color: var(--coral);
     color: var(--dk-gray);
+}
+
+/* Figure Styles*/
+figure{
+    margin: 1em 40px;
 }
 
 /* Code Styles */
